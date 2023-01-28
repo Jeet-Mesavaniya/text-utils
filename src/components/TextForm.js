@@ -76,7 +76,7 @@ export default function TextForm(props) {
         <div className="container my-3" style={{color: props.mode==='dark'?'white':'black'}}>
           <h2>your text summery</h2>
           <p>{(text.trim().split(" ")).length} words and {text.length} charactrs</p>
-          <p>{0.008 *  text.split(" ").length} minutes to read</p>
+          <p>{0.008 *  text.split(" ").length} Minutes to read</p>
           <h3>You have entered:</h3>
           <p>{count} No. of Vowels</p>
           <p>{count1} No. of Consonants</p>
